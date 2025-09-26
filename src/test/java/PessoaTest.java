@@ -13,6 +13,7 @@ class PessoaTest {
         assertEquals("Peso normal", p.getIMC());
     }
 
+
     @Test
     void testIMCMasculinoAbaixoDoPeso() {
         Pessoa p = new Pessoa(60, 1.80f, "M"); // Corrigido para float
